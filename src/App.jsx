@@ -96,6 +96,120 @@ const SEED_LISTINGS = [
     phone: "+82 10-2790-6438",
     links: [{ label: "Website", url: "https://seoulsharehouse.com" }],
   },
+  {
+    id: "episode_sinchon",
+    name: "Episode Sinchon Campus (Yonsei Dedicated)",
+    type: "Co-living",
+    distance: "2 min walk to Sinchon Station, 15 min walk to Yonsei University",
+    priceMin: 800000, priceMax: 1100000, priceStatus: "estimate",
+    priceNote: "Jointly operated with Yonsei Office of International Affairs. Minimum 1-month contract available, rent can be prorated by day for extensions.",
+    rating: 4.7, reviews: 112,
+    tags: ["Fully furnished", "Yonsei Intl. Affairs partner", "Online e-signatures", "1-month min"],
+    phone: "+82 1600-6805",
+    links: [
+      { label: "Official Page", url: "https://www.epsd.co.kr/en/epcampus_yonsei" }
+    ],
+  },
+  {
+    id: "singlehouse_sinchon",
+    name: "Single House Sinchon",
+    type: "Goshiwon",
+    distance: "3 min walk to Yonsei University Main Gate",
+    priceMin: 350000, priceMax: 430000, priceStatus: "verified",
+    priceNote: "Mini-rooms start at ₩350k (shared bath); full options go up to ₩430k. Booking deposit of ₩100,000 required.",
+    rating: 4.2, reviews: 34,
+    tags: ["Ultra close to gate", "Budget friendly", "Free rice/kimchi/ramen", "Rooftop"],
+    phone: "+82 10-7304-4456",
+    links: [
+      { label: "Goshipages Listing", url: "https://goshipages.com/singlehousesinchon" },
+      { label: "Manager Blog (Naver)", url: "https://blog.naver.com/smsjs7978" }
+    ],
+  },
+  {
+    id: "monostay_sinchon",
+    name: "Mono Stay Sinchon",
+    type: "Goshiwon",
+    distance: "1 min from Sinchon Station Exit 1 · ~5 min walk to Yonsei",
+    priceMin: 420000, priceMax: 600000, priceStatus: "verified",
+    priceNote: "Deposit: ₩100,000. Private-bathroom rooms are at the higher end. Includes brand-new appliances, AC, and daily cleaning.",
+    rating: 4.9, reviews: 21,
+    tags: ["Top rated", "Private bathroom options", "Near metro", "Secured entry"],
+    phone: "+82 10-5772-4499",
+    links: [
+      { label: "Photos & Price (Gobang)", url: "https://gobang.kr/place/8688" },
+      { label: "Official Blog (Naver)", url: "https://blog.naver.com/monostay79" }
+    ],
+  },
+  {
+    id: "ghouse_sinchon",
+    name: "G House Sinchon (Yonsei Branch)",
+    type: "Goshiwon",
+    distance: "384-2 Seongsan-ro · ~3 min walk to Yonsei",
+    priceMin: 350000, priceMax: 550000, priceStatus: "estimate",
+    priceNote: "Small deposit of ₩100,000–₩200,000. Shared kitchen facility.",
+    rating: null, reviews: null,
+    tags: ["Ultra close", "English support", "Foreigners welcome", "Shared kitchen"],
+    phone: null,
+    links: [
+      { label: "Photos & Booking", url: "https://goshipages.com/ghouse03" }
+    ],
+  },
+  {
+    id: "easystay_oneroom",
+    name: "Easy Stay Oneroom (Sinchon-Yonsei)",
+    type: "Oneroomtel",
+    distance: "Sinchon area · Close to campus",
+    priceMin: 600000, priceMax: 900000, priceStatus: "estimate",
+    priceNote: "Premium tier oneroomtel; confirm exact rates directly. Private unit with outer-facing window, private bathroom, washing machine, and dryer.",
+    rating: 5.0, reviews: null,
+    tags: ["In-room laundry", "Private bathroom", "New build", "Elevator", "Quiet"],
+    phone: "+82 10-3398-1838",
+    links: [
+      { label: "Photos & Website", url: "https://easystay.co.kr/sc" }
+    ],
+  },
+  {
+    id: "residence_first",
+    name: "Residence First Oneroomtel",
+    type: "Oneroomtel",
+    distance: "2 min from Sinchon Station · Close to campus",
+    priceMin: 500000, priceMax: 800000, priceStatus: "estimate",
+    priceNote: "Oneroomtel tier pricing; confirm directly. One older review flagged cleanliness, so viewing in person is recommended.",
+    rating: 4.3, reviews: null,
+    tags: ["Furnished", "Near metro", "Secure entry", "Female favorite location"],
+    phone: "+82 50-71307-6100",
+    links: [
+      { label: "Photos & Booking", url: "https://goshipages.com/park" }
+    ],
+  },
+  {
+    id: "monostay_premium",
+    name: "Mono Stay Premium Residence",
+    type: "Oneroomtel",
+    distance: "4 min from Sinchon Station · ~7 min walk to Yonsei",
+    priceMin: 1100000, priceMax: 1200000, priceStatus: "verified",
+    priceNote: "Deposit: ₩500,000. All utilities included with a 1-month minimum stay length.",
+    rating: null, reviews: null,
+    tags: ["Brand new", "Private bathroom", "Women-only floors available", "Utilities incl."],
+    phone: "+82 10-2282-1251", // Storing WhatsApp mobile line for application simplicity
+    links: [
+      { label: "Photos & Details (English)", url: "https://goshipages.com/monostay" }
+    ],
+  },
+  {
+    id: "sogang_studio_harry",
+    name: "Sogang University Private Studio (Host: Harry)",
+    type: "Private studio",
+    distance: "Sogang/Hongdae area · ~15 min to Yonsei by bus",
+    priceMin: null, priceMax: null, priceStatus: "confirm",
+    priceNote: "Affordable entirely private studio. Excellent local fallback option if accommodations right next to the Yonsei gate fill up.",
+    rating: 5.0, reviews: 9,
+    tags: ["Private studio", "English-speaking host", "Foreigner favorite", "Clean"],
+    phone: "+82 10-5255-3972",
+    links: [
+      { label: "Photos & Map (Google)", url: "Google listing" }
+    ],
+  },
 ];
 
 const TIPS = [
@@ -130,7 +244,7 @@ const fmtKRW = (n) => "₩" + Number(n).toLocaleString();
 /* ------------------------------------------------------------------ */
 const LOVE_NOTE =
   "i know you are really stressed about the housing. so i made you this — " +
-  "pick whatever feels like home, i will add to the list periodically in case you need more " +
+  "pick whatever feels like home, i will add to the list periodically in case you need more. " +
   "i can't wait to come visit you in Seoul.";
 const SIGNATURE = "— always, your dean";
 
@@ -278,7 +392,7 @@ export default function App() {
             Sinchon nest
           </h1>
           <p style={S.sub}>
-            Six cozy places near campus, my sweet lovel. I'll keep checking the prices
+            Some cozy places near campus, my sweet love. I'll keep checking the prices
             so you don't have to stress. Tap the heart on the ones you love. 🩷
           </p>
 
