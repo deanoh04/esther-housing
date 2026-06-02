@@ -196,6 +196,48 @@ const SEED_LISTINGS = [
       { label: "Photos & Details (English)", url: "https://goshipages.com/monostay" }
     ],
   },
+  {
+    id: "young_place_sinchon",
+    name: "Young Place Premium Oneroomtel (Female Only)",
+    type: "Oneroomtel",
+    distance: "319m from Yonsei Front Gate · ~5 min walk",
+    priceMin: 900000, priceMax: 1300000, priceStatus: "verified",
+    priceNote: "Deposit: ₩300,000 (₩50,000 deducted for cleaning at checkout). All utility bills included in rent. Features individual LG drum washing machines & dryers inside each room.",
+    rating: 4.8, reviews: 14,
+    tags: ["Female-only", "In-room laundry", "Private bathroom", "Brand new build"],
+    phone: "+82 10-2584-9943",
+    links: [
+      { label: "Photos & Booking (Goshipages)", url: "https://goshipages.com/youngplace" }
+    ],
+  },
+  {
+    id: "stayoasis_shinchon_women",
+    name: "Stayoasis Shinchon (Women Only)",
+    type: "Co-living",
+    distance: "334m from Yonsei University Front Gate (~4 min walk)",
+    priceMin: 1046100, priceMax: 1431100, priceStatus: "verified",
+    priceNote: "Luxury tier co-living layout for women only. No administrative expenses or extra public utility charges. Includes private en-suite bathroom and personal in-room LG washer & dryer.",
+    rating: null, reviews: null,
+    tags: ["Women-only", "Ultra close to gate", "En-suite bath", "In-room laundry"],
+    phone: "+82 10-7661-1201",
+    links: [
+      { label: "Enko Stay Booking Engine", url: "https://stay.enko.kr/house/d33a18d2-feff-4b8f-baef-bb1b5cb4463c" }
+    ],
+  },
+  {
+    id: "seoul_home_female",
+    name: "Seoul-Home Premium Residence (Female Only)",
+    type: "Goshiwon",
+    distance: "63 Myeongmul-gil · ~5 min walk to Yonsei",
+    priceMin: null, priceMax: null, priceStatus: "varies",
+    priceNote: "Premium one-room gositel for women only. Located on the bright main street with no surrounding nightlife or bars. Contact directly via WhatsApp or Kakao for current short-term pricing details.",
+    rating: 4.9, reviews: 19,
+    tags: ["Female-only", "Highly secured main street", "Soundproofed walls", "Double windows"],
+    phone: "+82 10-9075-6703",
+    links: [
+      { label: "Photos & English Chat", url: "https://goshipages.com/seoul-home" }
+    ],
+  },
 ];
 
 const TIPS = [
