@@ -196,20 +196,6 @@ const SEED_LISTINGS = [
       { label: "Photos & Details (English)", url: "https://goshipages.com/monostay" }
     ],
   },
-  {
-    id: "sogang_studio_harry",
-    name: "Sogang University Private Studio (Host: Harry)",
-    type: "Private studio",
-    distance: "Sogang/Hongdae area · ~15 min to Yonsei by bus",
-    priceMin: null, priceMax: null, priceStatus: "confirm",
-    priceNote: "Affordable entirely private studio. Excellent local fallback option if accommodations right next to the Yonsei gate fill up.",
-    rating: 5.0, reviews: 9,
-    tags: ["Private studio", "English-speaking host", "Foreigner favorite", "Clean"],
-    phone: "+82 10-5255-3972",
-    links: [
-      { label: "Photos & Map (Google)", url: "Google listing" }
-    ],
-  },
 ];
 
 const TIPS = [
