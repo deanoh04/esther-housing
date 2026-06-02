@@ -129,10 +129,10 @@ const fmtKRW = (n) => "₩" + Number(n).toLocaleString();
 /*  ♡ EDIT ME: your handwritten note to Esther + how you sign it.      */
 /* ------------------------------------------------------------------ */
 const LOVE_NOTE =
-  "i know moving across the world is a big, scary thing. so i made you this — " +
-  "pick whatever feels like home, and leave the boring price-checking to me. " +
+  "i know you are really stressed about the housing. so i made you this — " +
+  "pick whatever feels like home, i will add to the list periodically in case you need more " +
   "i can't wait to come visit you in Seoul.";
-const SIGNATURE = "— always, your favorite person";
+const SIGNATURE = "— always, your dean";
 
 /* ------------------------------------------------------------------ */
 /*  Storage that works BOTH in the Claude preview (window.storage)     */
@@ -278,7 +278,7 @@ export default function App() {
             Sinchon nest
           </h1>
           <p style={S.sub}>
-            Six cozy places near campus, sweetheart — and room to add any you find. I'll keep checking the prices
+            Six cozy places near campus, my sweet lovel. I'll keep checking the prices
             so you don't have to stress. Tap the heart on the ones you love. 🩷
           </p>
 
